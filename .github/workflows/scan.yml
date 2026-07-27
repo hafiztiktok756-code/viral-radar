@@ -1,0 +1,37 @@
+name: Viral Radar Daily Scan
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo checkout karo
+        uses: actions/checkout@v4
+
+      - name: Python setup karo
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Zaroori packages install karo
+        run: pip install google-api-python-client python-dateutil
+
+      - name: Scan chalao
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python viral_radar.py
+
+      - name: Naya data GitHub par save (commit) karo
+        run: |
+          git config --global user.name "viral-radar-bot"
+          git config --global user.email "bot@viralradar.local"
+          git add viral_radar_output.json scan_progress.json
+          git diff --staged --quiet || git commit -m "Daily scan update"
+          git push
