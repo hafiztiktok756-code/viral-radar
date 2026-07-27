@@ -188,7 +188,7 @@
     <div class="radar-dot"></div>
     <div>
       <h1>VIRAL RADAR</h1>
-      <div class="sub">Naye channels jo 30 din mein ban kar duniya bhar mein trend kar rahe hain — structure preview (dummy data)</div>
+      <div class="sub" id="headerSub">Naye channels jo 30 din mein ban kar duniya bhar mein trend kar rahe hain</div>
     </div>
   </div>
   <div class="scanstamp mono">
@@ -284,66 +284,69 @@
 
     <div class="filter-group">
       <span class="filter-label">Country / Region <span class="mono" style="color:var(--phosphor)">(60+)</span></span>
-      <select>
-        <option>Poori Duniya (Global)</option>
+      <select id="countryFilter">
+        <option value="all">Poori Duniya (Global)</option>
         <optgroup label="North America">
-          <option>🇺🇸 USA</option><option>🇨🇦 Canada</option><option>🇲🇽 Mexico</option>
+          <option value="US">🇺🇸 USA</option><option value="CA">🇨🇦 Canada</option><option value="MX">🇲🇽 Mexico</option>
         </optgroup>
         <optgroup label="Europe">
-          <option>🇬🇧 United Kingdom</option><option>🇩🇪 Germany</option><option>🇫🇷 France</option>
-          <option>🇮🇹 Italy</option><option>🇪🇸 Spain</option><option>🇳🇱 Netherlands</option>
-          <option>🇵🇱 Poland</option><option>🇸🇪 Sweden</option><option>🇳🇴 Norway</option>
-          <option>🇮🇪 Ireland</option><option>🇵🇹 Portugal</option><option>🇬🇷 Greece</option>
-          <option>🇷🇴 Romania</option><option>🇺🇦 Ukraine</option><option>🇨🇭 Switzerland</option>
+          <option value="UK">🇬🇧 United Kingdom</option><option value="DE">🇩🇪 Germany</option><option value="FR">🇫🇷 France</option>
+          <option value="IT">🇮🇹 Italy</option><option value="ES">🇪🇸 Spain</option><option value="NL">🇳🇱 Netherlands</option>
+          <option value="PL">🇵🇱 Poland</option><option value="SE">🇸🇪 Sweden</option><option value="NO">🇳🇴 Norway</option>
+          <option value="IE">🇮🇪 Ireland</option><option value="PT">🇵🇹 Portugal</option><option value="GR">🇬🇷 Greece</option>
+          <option value="RO">🇷🇴 Romania</option><option value="UA">🇺🇦 Ukraine</option><option value="CH">🇨🇭 Switzerland</option>
         </optgroup>
         <optgroup label="South Asia">
-          <option>🇵🇰 Pakistan</option><option>🇮🇳 India</option><option>🇧🇩 Bangladesh</option>
-          <option>🇱🇰 Sri Lanka</option><option>🇳🇵 Nepal</option><option>🇦🇫 Afghanistan</option>
+          <option value="PK">🇵🇰 Pakistan</option><option value="IN">🇮🇳 India</option><option value="BD">🇧🇩 Bangladesh</option>
+          <option value="LK">🇱🇰 Sri Lanka</option><option value="NP">🇳🇵 Nepal</option><option value="AF">🇦🇫 Afghanistan</option>
         </optgroup>
         <optgroup label="Middle East">
-          <option>🇸🇦 Saudi Arabia</option><option>🇦🇪 UAE</option><option>🇹🇷 Turkey</option>
-          <option>🇪🇬 Egypt</option><option>🇮🇶 Iraq</option><option>🇯🇴 Jordan</option>
+          <option value="SA">🇸🇦 Saudi Arabia</option><option value="AE">🇦🇪 UAE</option><option value="TR">🇹🇷 Turkey</option>
+          <option value="EG">🇪🇬 Egypt</option><option value="IQ">🇮🇶 Iraq</option><option value="JO">🇯🇴 Jordan</option>
         </optgroup>
         <optgroup label="East &amp; SE Asia">
-          <option>🇯🇵 Japan</option><option>🇰🇷 South Korea</option><option>🇨🇳 China</option>
-          <option>🇮🇩 Indonesia</option><option>🇵🇭 Philippines</option><option>🇻🇳 Vietnam</option>
-          <option>🇹🇭 Thailand</option><option>🇲🇾 Malaysia</option><option>🇸🇬 Singapore</option>
+          <option value="JP">🇯🇵 Japan</option><option value="KR">🇰🇷 South Korea</option><option value="CN">🇨🇳 China</option>
+          <option value="ID">🇮🇩 Indonesia</option><option value="PH">🇵🇭 Philippines</option><option value="VN">🇻🇳 Vietnam</option>
+          <option value="TH">🇹🇭 Thailand</option><option value="MY">🇲🇾 Malaysia</option><option value="SG">🇸🇬 Singapore</option>
         </optgroup>
         <optgroup label="Africa">
-          <option>🇳🇬 Nigeria</option><option>🇿🇦 South Africa</option><option>🇰🇪 Kenya</option>
-          <option>🇬🇭 Ghana</option><option>🇲🇦 Morocco</option><option>🇪🇹 Ethiopia</option>
+          <option value="NG">🇳🇬 Nigeria</option><option value="ZA">🇿🇦 South Africa</option><option value="KE">🇰🇪 Kenya</option>
+          <option value="GH">🇬🇭 Ghana</option><option value="MA">🇲🇦 Morocco</option><option value="ET">🇪🇹 Ethiopia</option>
         </optgroup>
         <optgroup label="South America">
-          <option>🇧🇷 Brazil</option><option>🇦🇷 Argentina</option><option>🇨🇴 Colombia</option>
-          <option>🇨🇱 Chile</option><option>🇵🇪 Peru</option>
+          <option value="BR">🇧🇷 Brazil</option><option value="AR">🇦🇷 Argentina</option><option value="CO">🇨🇴 Colombia</option>
+          <option value="CL">🇨🇱 Chile</option><option value="PE">🇵🇪 Peru</option>
         </optgroup>
         <optgroup label="Oceania">
-          <option>🇦🇺 Australia</option><option>🇳🇿 New Zealand</option>
+          <option value="AU">🇦🇺 Australia</option><option value="NZ">🇳🇿 New Zealand</option>
         </optgroup>
       </select>
     </div>
 
     <div class="filter-group">
       <span class="filter-label">Channel Age</span>
-      <div class="chip-row">
-        <div class="chip on">≤ 30 din</div>
-        <div class="chip">≤ 15 din</div>
-        <div class="chip">≤ 7 din</div>
+      <div class="chip-row" id="ageChips">
+        <div class="chip on" data-age="30">≤ 30 din</div>
+        <div class="chip" data-age="15">≤ 15 din</div>
+        <div class="chip" data-age="7">≤ 7 din</div>
       </div>
     </div>
 
     <div class="filter-group">
       <span class="filter-label">Sort By</span>
-      <button class="sort-btn on">Growth Rate <span>↓</span></button>
-      <button class="sort-btn">Views (Top Video) <span>↓</span></button>
-      <button class="sort-btn">Subscribers <span>↓</span></button>
-      <button class="sort-btn">Newest Channel <span>↓</span></button>
-      <button class="sort-btn">Upload Frequency <span>↓</span></button>
+      <button class="sort-btn on" data-sort="growth">Growth Rate <span>↓</span></button>
+      <button class="sort-btn" data-sort="views">Views (Top Video) <span>↓</span></button>
+      <button class="sort-btn" data-sort="subs">Subscribers <span>↓</span></button>
+      <button class="sort-btn" data-sort="age">Newest Channel <span>↓</span></button>
+      <button class="sort-btn" data-sort="uploads">Upload Frequency <span>↓</span></button>
     </div>
 
     <div class="filter-group">
       <span class="filter-label">Keyword Search</span>
-      <select><option>Keyword / tag search box</option></select>
+      <select id="keywordSearch" style="font-family:'JetBrains Mono',monospace;">
+        <option value="">-- Type below --</option>
+      </select>
+      <input id="keywordInput" type="text" placeholder="jaise: psychology, ai tools..." style="width:100%;margin-top:8px;background:var(--panel-2);border:1px solid var(--line);color:var(--text);padding:9px 10px;border-radius:4px;font-size:13px;font-family:'Space Grotesk',sans-serif;">
     </div>
   </aside>
 
@@ -355,7 +358,21 @@
       <div class="stat"><div class="num mono">180+</div><div class="lbl">Niches tracked (auto-updates daily)</div></div>
     </div>
 
-    <div class="table-wrap">
+    <div style="display:flex;gap:10px;margin-bottom:14px;">
+      <button class="btn-outline" id="viewTableBtn" style="color:var(--phosphor);border-color:var(--phosphor-dim);">☰ TABLE VIEW</button>
+      <button class="btn-outline" id="viewCardBtn">▢ CARD VIEW (1 by 1)</button>
+    </div>
+
+    <div id="cardView" style="display:none;">
+      <div id="cardBox" style="background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:26px;min-height:280px;"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;">
+        <button class="btn-outline" id="prevCardBtn">← PICHLA</button>
+        <span class="mono" id="cardCounter" style="color:var(--text-dim);font-size:13px;">1 / 10</span>
+        <button class="btn-outline" id="nextCardBtn">AGLA →</button>
+      </div>
+    </div>
+
+    <div class="table-wrap" id="tableView">
       <table id="dataTable">
         <thead>
           <tr>
@@ -385,65 +402,117 @@
 
 <footer>
   <div>Data sources (planned): YouTube Data API · channel search · video statistics</div>
-  <div class="mono">STATUS: <span style="color:var(--phosphor)">MOCKUP — koi live data nahi</span></div>
+  <div class="mono">STATUS: <span id="dataStatus" style="color:var(--amber)">Loading...</span></div>
 </footer>
 
 <script>
 const CATS = ['Psychology','Stoicism','Storytelling','True Crime','Relationship Advice','Personal Finance',
   'Crypto','AI Tools','Gameplay - RPG','Fitness','Skincare','Mukbang','Travel Vlogs','Sketch Comedy',
   'Science Facts','Digital Art','Cricket','ASMR','Faceless Channel Growth','Astrology'];
-const COUNTRIES = ['🇵🇰 PK','🇮🇳 IN','🇺🇸 US','🇬🇧 UK','🇩🇪 DE','🇫🇷 FR','🇨🇦 CA','🇧🇷 BR','🇮🇩 ID',
-  '🇳🇬 NG','🇸🇦 SA','🇯🇵 JP','🇰🇷 KR','🇹🇷 TR','🇵🇭 PH','🇿🇦 ZA','🇦🇺 AU','🇪🇸 ES','🇮🇹 IT','🇵🇱 PL'];
+const COUNTRY_CODES = ['PK','IN','US','UK','DE','FR','CA','BR','ID','NG','SA','JP','KR','TR','PH','ZA','AU','ES','IT','PL'];
 const KW_POOL = ['#shorts','#viral','#trending','ai tools','money hacks','skincare','gameplay','life hack','tutorial','reaction','challenge','review'];
 
 function rand(min,max){ return Math.floor(Math.random()*(max-min+1))+min; }
 function pick(arr){ return arr[rand(0,arr.length-1)]; }
 
-function genRow(i, isShort){
-  const growth = rand(18, 340);
-  const subs = rand(4000, 850000);
-  const views = isShort ? rand(200000, 12000000) : rand(50000, 4200000);
-  const age = rand(2, 30);
-  const kws = Array.from({length:3}, ()=>pick(KW_POOL));
-  const growthClass = growth > 150 ? 'hot' : 'up';
-  return `
-    <tr>
-      <td class="mono">${i}</td>
-      <td>
-        <div class="ch-meta">
-          <span class="ch-name">${isShort ? 'Short' : 'Chan'}nel_${1000+i}</span>
-          <span class="ch-cat">${pick(CATS)}</span>
-        </div>
-      </td>
-      <td>${pick(COUNTRIES)}</td>
-      <td><span class="badge-age mono">${age}d</span></td>
-      <td class="mono">${subs.toLocaleString()}</td>
-      <td class="growth ${growthClass} mono">+${growth}%</td>
-      <td class="mono">${views.toLocaleString()}</td>
-      <td class="mono">${rand(3,21)}x</td>
-      <td><div class="keywords">${kws.map(k=>`<span class="kw">${k}</span>`).join('')}</div></td>
-      <td><a class="link-btn" href="#" onclick="return false;">Dekhein →</a></td>
-    </tr>`;
+function buildDummyData(){
+  const out = [];
+  for(let i=0;i<100;i++){
+    const isShort = i % 2 === 0;
+    const growth = rand(2, 340);
+    const subs = rand(4000, 850000);
+    const views = isShort ? rand(200000, 12000000) : rand(50000, 4200000);
+    const age = rand(2, 30);
+    out.push({
+      channel_id: 'dummy'+i,
+      channel_name: (isShort?'Short':'Chan')+'nel_'+(1000+i),
+      niche: pick(CATS),
+      country: pick(COUNTRY_CODES),
+      age_days: age,
+      subscribers: subs,
+      daily_growth_avg: Math.round((growth)*10)/10,
+      total_views: views,
+      video_count: rand(3,21),
+      format: isShort ? 'short' : 'long',
+      seo_data: { hashtags: Array.from({length:3}, ()=>pick(KW_POOL)) }
+    });
+  }
+  return out;
 }
 
-function render(isShort){
-  const n = isShort ? 46 : 54;
-  const rows = Array.from({length: Math.min(n,15)}, (_,i)=>genRow(i+1, isShort)).join('');
-  document.getElementById('tbody').innerHTML = rows;
+let ALL_DATA = null;
+let CURRENT_TAB_IS_SHORT = false;
+
+function currentFilters(){
+  return {
+    category: document.getElementById('catFilter').value,
+    country: document.getElementById('countryFilter').value,
+    maxAge: parseInt(document.querySelector('.chip.on').dataset.age, 10),
+    sortBy: document.querySelector('.sort-btn.on').dataset.sort,
+    keyword: document.getElementById('keywordInput').value.trim().toLowerCase()
+  };
 }
 
-function renderRealData(data, isShort){
-  const filtered = data.filter(c => c.format === (isShort ? 'short' : 'long'));
-  if(filtered.length === 0){
-    render(isShort); // koi real data nahi mila to dummy dikhao
+function applyFiltersAndRender(){
+  if(!ALL_DATA) return;
+  const f = currentFilters();
+  let rows = ALL_DATA.filter(c => c.format === (CURRENT_TAB_IS_SHORT ? 'short' : 'long'));
+
+  if(f.category && !f.category.startsWith('Sabhi')){
+    rows = rows.filter(c => c.niche.toLowerCase() === f.category.toLowerCase());
+  }
+  if(f.country && f.country !== 'all'){
+    rows = rows.filter(c => c.country.toUpperCase() === f.country.toUpperCase());
+  }
+  rows = rows.filter(c => c.age_days <= f.maxAge);
+  if(f.keyword){
+    rows = rows.filter(c => {
+      const hay = (c.channel_name + ' ' + c.niche + ' ' + (c.seo_data.hashtags||[]).join(' ')).toLowerCase();
+      return hay.includes(f.keyword);
+    });
+  }
+
+  const sortMap = {
+    growth: c => c.daily_growth_avg,
+    views: c => c.total_views,
+    subs: c => c.subscribers,
+    age: c => -c.age_days,
+    uploads: c => c.video_count
+  };
+  const key = sortMap[f.sortBy] || sortMap.growth;
+  rows.sort((a,b) => key(b) - key(a));
+
+  renderRows(rows);
+}
+
+let CURRENT_ROWS = [];
+let CARD_INDEX = 0;
+let VIEW_MODE = 'table';
+
+function renderRows(rows){
+  CURRENT_ROWS = rows;
+  CARD_INDEX = 0;
+  if(VIEW_MODE === 'card'){
+    renderCard();
+  } else {
+    renderTable(rows);
+  }
+}
+
+function renderTable(rows){
+  if(rows.length === 0){
+    document.getElementById('tbody').innerHTML =
+      '<tr><td colspan="10" style="text-align:center;color:var(--text-dim);padding:24px;">Koi channel is filter se nahi mila.</td></tr>';
     return;
   }
-  const rows = filtered.map((c,i) => `
+  const html = rows.slice(0,50).map((c,i) => `
     <tr>
       <td class="mono">${i+1}</td>
       <td>
         <div class="ch-meta">
-          <span class="ch-name">${c.channel_name}</span>
+          <span class="ch-name">${c.channel_id.startsWith('dummy') ?
+            c.channel_name :
+            `<a href="https://youtube.com/channel/${c.channel_id}" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px dashed var(--phosphor-dim);">${c.channel_name}</a>`}</span>
           <span class="ch-cat">${c.niche}</span>
         </div>
       </td>
@@ -453,51 +522,140 @@ function renderRealData(data, isShort){
       <td class="growth up mono">+${c.daily_growth_avg}/day</td>
       <td class="mono">${c.total_views.toLocaleString()}</td>
       <td class="mono">${c.video_count}</td>
-      <td><div class="keywords">${(c.seo_data.hashtags.slice(0,3)).map(k=>`<span class="kw">${k}</span>`).join('')}</div></td>
-      <td><a class="link-btn" href="https://youtube.com/channel/${c.channel_id}" target="_blank">Dekhein →</a></td>
+      <td><div class="keywords">${(c.seo_data.hashtags||[]).slice(0,3).map(k=>`<span class="kw">${k}</span>`).join('')}</div></td>
+      <td>${c.channel_id.startsWith('dummy') ?
+            `<a class="link-btn" href="#" onclick="return false;">Dekhein →</a>` :
+            `<a class="link-btn" href="https://youtube.com/channel/${c.channel_id}" target="_blank">Dekhein →</a>`}</td>
     </tr>`).join('');
-  document.getElementById('tbody').innerHTML = rows;
+  document.getElementById('tbody').innerHTML = html;
 }
 
-let REAL_DATA = null;
-let CURRENT_TAB_IS_SHORT = false;
+function renderCard(){
+  const box = document.getElementById('cardBox');
+  const counter = document.getElementById('cardCounter');
+  if(CURRENT_ROWS.length === 0){
+    box.innerHTML = '<div style="text-align:center;color:var(--text-dim);padding:40px 0;">Koi channel is filter se nahi mila.</div>';
+    counter.textContent = '0 / 0';
+    return;
+  }
+  const c = CURRENT_ROWS[CARD_INDEX];
+  const link = c.channel_id.startsWith('dummy') ? '#' : `https://youtube.com/channel/${c.channel_id}`;
+  box.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:14px;">
+      <div>
+        <div style="font-size:22px;font-weight:700;">
+          <a href="${link}" target="_blank" style="color:var(--text);text-decoration:none;border-bottom:1px dashed var(--phosphor-dim);">${c.channel_name}</a>
+        </div>
+        <div style="color:var(--phosphor-dim);font-size:13px;margin-top:4px;">${c.niche} · ${c.country} · <span class="badge-age mono">${c.age_days}d old</span></div>
+      </div>
+      <a class="link-btn" href="${link}" target="_blank" style="font-size:13px;">YouTube pe dekhein →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;margin-top:22px;">
+      <div><div class="mono" style="color:var(--phosphor);font-size:20px;font-weight:700;">${c.subscribers.toLocaleString()}</div><div style="color:var(--text-dim);font-size:11px;">Subscribers</div></div>
+      <div><div class="mono" style="color:var(--amber);font-size:20px;font-weight:700;">+${c.daily_growth_avg}/day</div><div style="color:var(--text-dim);font-size:11px;">Growth Rate</div></div>
+      <div><div class="mono" style="color:var(--phosphor);font-size:20px;font-weight:700;">${c.total_views.toLocaleString()}</div><div style="color:var(--text-dim);font-size:11px;">Top Video Views</div></div>
+      <div><div class="mono" style="color:var(--phosphor);font-size:20px;font-weight:700;">${c.video_count}</div><div style="color:var(--text-dim);font-size:11px;">Videos/Week</div></div>
+    </div>
+    <div style="margin-top:20px;">
+      <div style="color:var(--text-dim);font-size:11px;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">SEO Keywords / Hashtags</div>
+      <div class="keywords">${(c.seo_data.hashtags||[]).map(k=>`<span class="kw" style="font-size:12px;padding:4px 10px;">${k}</span>`).join('') || '<span style="color:var(--text-dim);font-size:12px;">Koi hashtag nahi mila</span>'}</div>
+    </div>`;
+  counter.textContent = `${CARD_INDEX+1} / ${CURRENT_ROWS.length}`;
+}
 
-// Real data load karne ki koshish karo (server ke zariye chalane par kaam karega)
-fetch('viral_radar_output.json')
-  .then(res => { if(!res.ok) throw new Error('no data file'); return res.json(); })
-  .then(data => {
-    REAL_DATA = data;
-    console.log(`Real data loaded: ${data.length} channels`);
-    renderRealData(REAL_DATA, CURRENT_TAB_IS_SHORT);
-  })
-  .catch(() => {
-    console.log('viral_radar_output.json nahi mili — dummy data dikha rahe hain.');
-  });
+document.getElementById('viewTableBtn').addEventListener('click', ()=>{
+  VIEW_MODE = 'table';
+  document.getElementById('viewTableBtn').style.color = 'var(--phosphor)';
+  document.getElementById('viewTableBtn').style.borderColor = 'var(--phosphor-dim)';
+  document.getElementById('viewCardBtn').style.color = 'var(--text-dim)';
+  document.getElementById('viewCardBtn').style.borderColor = 'var(--line)';
+  document.getElementById('tableView').style.display = '';
+  document.getElementById('cardView').style.display = 'none';
+  renderTable(CURRENT_ROWS);
+});
+
+document.getElementById('viewCardBtn').addEventListener('click', ()=>{
+  VIEW_MODE = 'card';
+  document.getElementById('viewCardBtn').style.color = 'var(--phosphor)';
+  document.getElementById('viewCardBtn').style.borderColor = 'var(--phosphor-dim)';
+  document.getElementById('viewTableBtn').style.color = 'var(--text-dim)';
+  document.getElementById('viewTableBtn').style.borderColor = 'var(--line)';
+  document.getElementById('tableView').style.display = 'none';
+  document.getElementById('cardView').style.display = '';
+  CARD_INDEX = 0;
+  renderCard();
+});
+
+document.getElementById('prevCardBtn').addEventListener('click', ()=>{
+  if(CURRENT_ROWS.length === 0) return;
+  CARD_INDEX = (CARD_INDEX - 1 + CURRENT_ROWS.length) % CURRENT_ROWS.length;
+  renderCard();
+});
+
+document.getElementById('nextCardBtn').addEventListener('click', ()=>{
+  if(CURRENT_ROWS.length === 0) return;
+  CARD_INDEX = (CARD_INDEX + 1) % CURRENT_ROWS.length;
+  renderCard();
+});
 
 function setTab(which){
   document.getElementById('tab-long').classList.toggle('active', which==='long');
   document.getElementById('tab-short').classList.toggle('active', which==='short');
   CURRENT_TAB_IS_SHORT = (which === 'short');
-  if(REAL_DATA){
-    renderRealData(REAL_DATA, CURRENT_TAB_IS_SHORT);
-  } else {
-    render(CURRENT_TAB_IS_SHORT);
-  }
+  applyFiltersAndRender();
 }
 
-render(false);
+function populateFiltersFromData(){
+  const niches = [...new Set(ALL_DATA.map(c => c.niche))].sort();
+  const countries = [...new Set(ALL_DATA.map(c => c.country))].sort();
 
-// chip toggle demo
-document.querySelectorAll('.chip').forEach(c=>{
+  const catSel = document.getElementById('catFilter');
+  catSel.innerHTML = '<option>Sabhi Niches (All)</option>' +
+    niches.map(n => `<option value="${n}">${n} (${ALL_DATA.filter(c=>c.niche===n).length})</option>`).join('');
+
+  const countrySel = document.getElementById('countryFilter');
+  countrySel.innerHTML = '<option value="all">Poori Duniya (Global)</option>' +
+    countries.map(c => `<option value="${c}">${c} (${ALL_DATA.filter(x=>x.country===c).length})</option>`).join('');
+}
+
+fetch('viral_radar_output.json')
+  .then(res => { if(!res.ok) throw new Error('no data file'); return res.json(); })
+  .then(data => {
+    const isReal = Array.isArray(data) && data.length > 0;
+    ALL_DATA = isReal ? data : buildDummyData();
+    document.getElementById('dataStatus').innerHTML = isReal
+      ? '<span style="color:var(--phosphor)">LIVE — real data</span>'
+      : '<span style="color:var(--amber)">Abhi tak scan nahi hua — dummy data dikha rahe hain</span>';
+    document.getElementById('headerSub').textContent = isReal
+      ? 'Naye channels jo 30 din mein ban kar duniya bhar mein trend kar rahe hain — LIVE DATA'
+      : 'Naye channels jo 30 din mein ban kar duniya bhar mein trend kar rahe hain — abhi dummy data (pehli scan chalayein)';
+    populateFiltersFromData();
+    applyFiltersAndRender();
+  })
+  .catch(() => {
+    ALL_DATA = buildDummyData();
+    document.getElementById('dataStatus').innerHTML = '<span style="color:var(--danger)">Data file nahi mili — dummy data</span>';
+    populateFiltersFromData();
+    applyFiltersAndRender();
+  });
+
+document.getElementById('catFilter').addEventListener('change', applyFiltersAndRender);
+document.getElementById('countryFilter').addEventListener('change', applyFiltersAndRender);
+document.getElementById('keywordInput').addEventListener('input', applyFiltersAndRender);
+
+document.querySelectorAll('#ageChips .chip').forEach(c=>{
   c.addEventListener('click', ()=>{
-    document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+    document.querySelectorAll('#ageChips .chip').forEach(x=>x.classList.remove('on'));
     c.classList.add('on');
+    applyFiltersAndRender();
   });
 });
+
 document.querySelectorAll('.sort-btn').forEach(c=>{
   c.addEventListener('click', ()=>{
     document.querySelectorAll('.sort-btn').forEach(x=>x.classList.remove('on'));
     c.classList.add('on');
+    applyFiltersAndRender();
   });
 });
 </script>
