@@ -546,6 +546,41 @@
     }
   },
   {
+    "channel_id": "UC8VZ7Ro2x3NiMUuDIJ-_YiQ",
+    "channel_name": "The Stories365",
+    "created_at": "2026-08-02",
+    "age_days": 5,
+    "subscribers": 22,
+    "total_views": 2079,
+    "video_count": 3,
+    "niche": "stoicism",
+    "country": "PL",
+    "daily_growth_avg": 4.4,
+    "format": "long",
+    "seo_data": {
+      "titles": [
+        "Viktor Frankl Found the Secret to Surviving Anything",
+        "The Ancient Secret That Beats Every Hustle Hack (Wu Wei Explained)",
+        "Aristotle Said You've Been Chasing the Wrong Thing"
+      ],
+      "tags": [
+        "short"
+      ],
+      "hashtags": [
+        "#mindset",
+        "#philosophy",
+        "#stoicism",
+        "#Shorts",
+        "#selfimprovement"
+      ],
+      "description_snippets": [
+        "suffering hits different when you have a reason 💭 #mindset #philosophy #stoicism #Shorts",
+        "stop forcing it. water never tries. 💧 #philosophy #mindset #selfimprovement #Shorts",
+        "stop chasing feelings. start building yourself. 🧠 #philosophy #mindset #selfimprovement #Shorts"
+      ]
+    }
+  },
+  {
     "channel_id": "UCkLKzWSUttfHfnoZHnwxMlg",
     "channel_name": "Animation castle",
     "created_at": "2026-07-27",
@@ -1366,6 +1401,63 @@
         "#shorts​ #gaming​ #games​ #youtubeshorts​",
         "#brainteaser #puzzle #shortsfeed ✅🎮",
         "#brainteaser #puzzle #shortsfeed ✅✅"
+      ]
+    }
+  },
+  {
+    "channel_id": "UC-vriY-9zky9BOEGLPK0Wiw",
+    "channel_name": "StoicismXAdrenalineRush",
+    "created_at": "2026-07-17",
+    "age_days": 22,
+    "subscribers": 9,
+    "total_views": 4579,
+    "video_count": 6,
+    "niche": "stoicism",
+    "country": "PL",
+    "daily_growth_avg": 0.41,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "Napoleon Bonaparte quotes: #stoicism #success #shorts",
+        "Others opinion of you doesn't have to become your Reality. #stoicism #success #shorts",
+        "Your Reality. #stoicism #reality #shorts",
+        "Peter Dinklage. #shorts #tried #stoicism",
+        "Epiphany. #shorts #stoicism #truth"
+      ],
+      "tags": [],
+      "hashtags": [
+        "#stoicism",
+        "#success",
+        "#shorts",
+        "#napoleon",
+        "#mindset",
+        "#history",
+        "#quotes",
+        "#motivation",
+        "#philosophy",
+        "#stoicwisdom",
+        "#bussiness",
+        "#inspiration",
+        "#grinding",
+        "#lockin",
+        "#focus",
+        "#wealth",
+        "#reality",
+        "#batman",
+        "#successmindset",
+        "#inspirational",
+        "#tried",
+        "#truth",
+        "#comics",
+        "#animation",
+        "#deepquotes"
+      ],
+      "description_snippets": [
+        "Welcome to the channel!\n\nThis channel creates motivational and stoic content inspired by the wisdom, speeches, and ideas of successful people, world l",
+        "Speech by Les Brown:   The famous \"It's Not Over Until I Win\" speech by Les Brown was delivered during his major live seminar at the historic Georgia ",
+        "Someone's opinion of you doesn't have to become your reality. - Les Brown.\nContent used: Batman: Mask of the Phantasm (1993) | Chapter 8: A Dream of t",
+        "Ever tried ever failed - Peter Dinklage.\n\nPeter Dinklage delivered his famous \"Ever tried. Ever failed. No matter. Try again. Fail again. Fail better\"",
+        "Batman: Mask of the Phantasm (1993) | Chapter 8: A dream of the Future.\n\n#batman #comics #animation #deepquotes \nDisclaimer:\nCopyright Disclaimer Unde"
       ]
     }
   },
