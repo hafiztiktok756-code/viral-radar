@@ -507,6 +507,35 @@
     }
   },
   {
+    "channel_id": "UCC4LmMFSdrXm5EkkYdxPSOw",
+    "channel_name": "Al Daily Hub",
+    "created_at": "2026-08-10",
+    "age_days": 1,
+    "subscribers": 6,
+    "total_views": 0,
+    "video_count": 2,
+    "niche": "ai tools",
+    "country": "ES",
+    "daily_growth_avg": 6.0,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "आपके AI Daily Hub चैनल के लिए शुरुआत में ये 5 AI tools काम आएँगे: #ai #usa #viral",
+        "Top 5 Free AI Tools You Should Try in 2026 #ai #viral #usa"
+      ],
+      "tags": [],
+      "hashtags": [
+        "#ai",
+        "#usa",
+        "#viral"
+      ],
+      "description_snippets": [
+        "",
+        ""
+      ]
+    }
+  },
+  {
     "channel_id": "UCn9kE_QI0C2kL61QDB-MlLg",
     "channel_name": "Elite Ansh",
     "created_at": "2026-07-26",
@@ -2189,6 +2218,103 @@
       "description_snippets": [
         "Why the Rich Don't Use Savings Accounts?\nAre you keeping all your money in a savings account? That could be costing you more than you think.\n\nIn this ",
         "Your brain doesn't know the difference between money and food — and it's costing you.\n\nFor 300,000 years, humans hoarded food to survive famine. Today"
+      ]
+    }
+  },
+  {
+    "channel_id": "UChJNVjM_yep2_PuvAvqK3oA",
+    "channel_name": "True Jake",
+    "created_at": "2026-07-29",
+    "age_days": 11,
+    "subscribers": 0,
+    "total_views": 3399,
+    "video_count": 16,
+    "niche": "crypto",
+    "country": "PL",
+    "daily_growth_avg": 0.0,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "Don’t Wait for an Account Freeze #crypto #xrp",
+        "Stop Relying Only on Exchange Custody #crypto #xrp",
+        "Protect Years of Crypto Growth with a Trust Built for Long-Term Ownership #crypto #xrp",
+        "Smart Crypto Holders Know Protection Is Just as Important as Portfolio Growth Today #crypto #xrp",
+        "Take Control With a Structured Crypto Wallet #crypto #xrp"
+      ],
+      "tags": [],
+      "hashtags": [
+        "#crypto",
+        "#xrp",
+        "#wealthprotection",
+        "#cryptosecurity",
+        "#wealthplanning",
+        "#investorprotection",
+        "#cryptoassets"
+      ],
+      "description_snippets": [
+        "#wealthprotection #cryptosecurity",
+        "",
+        "#wealthplanning #cryptosecurity",
+        "#investorprotection #cryptoassets",
+        ""
+      ]
+    }
+  },
+  {
+    "channel_id": "UCQkw2TJiEkjEdfo3Shp0EdA",
+    "channel_name": "AI Future Lab",
+    "created_at": "2026-08-08",
+    "age_days": 1,
+    "subscribers": 0,
+    "total_views": 0,
+    "video_count": 1,
+    "niche": "ai tools",
+    "country": "AU",
+    "daily_growth_avg": 0.0,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "5 AI Tools You Won’t Believe Are FREE 🤯 #AI #AITools #Shorts"
+      ],
+      "tags": [
+        "ai tools",
+        "free ai tools",
+        "best ai tools",
+        "ai tools 2026",
+        "artificial intelligence",
+        "ai technology",
+        "ai future",
+        "ai hacks",
+        "ai tips",
+        "free ai",
+        "ai video tools",
+        "ai image generator",
+        "ai voice generator",
+        "ai editing tools",
+        "chatgpt",
+        "future technology",
+        "tech shorts",
+        "ai shorts",
+        "viral ai",
+        "youtube shorts",
+        "AI Future Lab"
+      ],
+      "hashtags": [
+        "#AI",
+        "#AITools",
+        "#Shorts",
+        "#ArtificialIntelligence",
+        "#FreeAI",
+        "#AITips",
+        "#Tech",
+        "#FutureTech",
+        "#AIShorts",
+        "#ChatGPT",
+        "#AITech",
+        "#AITrends"
+      ],
+      "description_snippets": [
+        "🤯 These FREE AI tools can seriously change the way you work!\n\nFrom AI video creation and realistic voices to image generation, writing, and automatic "
       ]
     }
   }
