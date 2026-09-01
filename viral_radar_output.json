@@ -2604,6 +2604,41 @@
     }
   },
   {
+    "channel_id": "UC-t99oOsC8dguhkPdSHK_CQ",
+    "channel_name": "Tt Tt006",
+    "created_at": "2026-09-01",
+    "age_days": 1,
+    "subscribers": 1,
+    "total_views": 0,
+    "video_count": 1,
+    "niche": "comedy sketch",
+    "country": "PL",
+    "daily_growth_avg": 1.0,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "#pov,#funny,#comedy,#skit,#short,#viral,#satisfyin,#illustration,#tattoo,#art,#drawing"
+      ],
+      "tags": [],
+      "hashtags": [
+        "#pov",
+        "#funny",
+        "#comedy",
+        "#skit",
+        "#short",
+        "#viral",
+        "#satisfyin",
+        "#illustration",
+        "#tattoo",
+        "#art",
+        "#drawing"
+      ],
+      "description_snippets": [
+        ""
+      ]
+    }
+  },
+  {
     "channel_id": "UCgX2nZ3Ju78WC1GQYh-z7TA",
     "channel_name": "Chariot Mindset",
     "created_at": "2026-07-03",
