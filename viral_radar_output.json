@@ -3159,6 +3159,44 @@
     }
   },
   {
+    "channel_id": "UCnaoenRa4RlZQJ1pxUn4fVA",
+    "channel_name": "Cricket DP 6",
+    "created_at": "2026-09-12",
+    "age_days": 10,
+    "subscribers": 28,
+    "total_views": 26644,
+    "video_count": 30,
+    "niche": "cricket highlights",
+    "country": "PL",
+    "daily_growth_avg": 2.8,
+    "format": "short",
+    "seo_data": {
+      "titles": [
+        "#cricket #cricketlover #highlights #greenscreen",
+        "#cricket #cricketlover #hardik #highlights #greenscreen",
+        "#cricket #hardik #cricketlover #greenscreen",
+        "#cricket #cricketlover #highlights #greenscreen #shortsfeed",
+        "#cricketlover #hardik #cricket #greenscreen"
+      ],
+      "tags": [],
+      "hashtags": [
+        "#cricket",
+        "#cricketlover",
+        "#highlights",
+        "#greenscreen",
+        "#hardik",
+        "#shortsfeed"
+      ],
+      "description_snippets": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  {
     "channel_id": "UCP4sOoaCohPw98WjtUd444Q",
     "channel_name": "𝕗𝕦𝕟𝕟𝕪𝕒𝕣𝕥⓪⓪①",
     "created_at": "2026-07-19",
@@ -6117,88 +6155,6 @@
         "What really happened in the Kohistan case? This documentary explores one of Pakistan's most controversial alleged honor killing cases, where a short m",
         "#TrueStory #TrueCrime #Mystery #DarkHistory #HorrorStory #Curse #Cursed #UrbanLegend #RealEvents #UnsolvedMystery #Creepy #ScaryStories #Documentary #",
         "#HindiStories #HorrorHindi #Rahasya #BhootKiKahani #RealStory #IndianMystery #HindiReels #Kahani #DarkStories #TrueStoryHindi"
-      ]
-    }
-  },
-  {
-    "channel_id": "UCJlHp3-Iw5UBu_YPMjME8qg",
-    "channel_name": "LoopWire",
-    "created_at": "2026-08-12",
-    "age_days": 15,
-    "subscribers": 5,
-    "total_views": 191,
-    "video_count": 17,
-    "niche": "faceless youtube channel",
-    "country": "AU",
-    "daily_growth_avg": 0.33,
-    "format": "long",
-    "seo_data": {
-      "titles": [
-        "How I Automated a Faceless YouTube Channel With Claude Code #Shorts",
-        "How I Automated a Faceless YouTube Channel With Claude Code",
-        "The Claude Model Cheat Sheet",
-        "How to Set Up Claude Cowork (Properly)",
-        "How to Pick the Right Claude Model (Every Time) Part1"
-      ],
-      "tags": [
-        "ai agents",
-        "ai automation",
-        "ai pipeline",
-        "ai video generation",
-        "ai workflow",
-        "anthropic",
-        "automated video production",
-        "behind the scenes",
-        "claude ai",
-        "claude code",
-        "claude harness",
-        "faceless youtube channel",
-        "shorts",
-        "ai productivity",
-        "developer tools",
-        "prompt engineering",
-        "ai cheat sheet",
-        "ai model selection",
-        "claude api",
-        "claude fable 5",
-        "claude haiku",
-        "claude models",
-        "claude opus 5",
-        "claude sonnet 5",
-        "model comparison",
-        "ai agent setup",
-        "ai connectors",
-        "ai system setup",
-        "claude ai setup",
-        "claude cowork",
-        "claude cowork tutorial",
-        "claude desktop",
-        "claude global instructions",
-        "claude projects",
-        "claude skills",
-        "productivity tools 2026",
-        "ai coding assistant",
-        "claude models 2026",
-        "llm comparison"
-      ],
-      "hashtags": [
-        "#Shorts",
-        "#ClaudeAI",
-        "#ClaudeCode",
-        "#AIAutomation",
-        "#FacelessYouTube",
-        "#Anthropic",
-        "#AIProductivity",
-        "#ClaudeCowork",
-        "#AnthropicClaude",
-        "#AIModels"
-      ],
-      "description_snippets": [
-        "Full video: https://www.youtube.com/watch?v=2AmRacmpKHk\n\nNo camera, no editor, no human touching a timeline. Every video on this channel is produced b",
-        "How to automate a faceless YouTube channel with AI — the real engineering, not a money-making pitch. No camera, no editor, no human touching a timelin",
-        "Skip the framework — here's exactly which Claude model for exactly which task, straight from Anthropic's own model selection matrix. A fast companion ",
-        "A verified walkthrough of setting up Claude Cowork — Global Instructions, Projects, folders, connectors, and scheduled tasks — sourced from Anthropic'",
-        "Four Claude models, one decision tree. Here's the exact 3-question framework — with live demos on Fable 5, Opus 5, Sonnet 5, and Haiku 4.5 — so you ne"
       ]
     }
   }
